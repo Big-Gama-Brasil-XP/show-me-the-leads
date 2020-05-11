@@ -1,0 +1,19 @@
+{
+  "name": "show-me-the-leads",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Big-Gama-Brasil-XP/show-me-the-leads.git",
+  "author": "BigGamaBrasil",
+  "contributors": [
+    "Mirelle Silva <mirellepollyane@gmail.com>",
+    "Paulo Moreira <pmoreira@firenzze.com>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
