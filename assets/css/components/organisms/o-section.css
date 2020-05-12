@@ -1,0 +1,6 @@
+/* o-section component */
+.o-section {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}

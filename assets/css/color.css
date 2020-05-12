@@ -1,0 +1,126 @@
+:root {
+
+    /**
+    * Base colors settings
+    * - Change the base colors settings to your brand colors
+    * - You need to change only the --settings HSL values below
+    */
+    --settings-color-primary: 347, 100%, 50%;
+    --settings-color-primary-light: 347, 100%, 68%;
+    --settings-color-primary-dark: 347, 100%, 38%;
+
+    --settings-color-secondary: 0, 0%, 0%;
+    --settings-color-secondary-light: 0, 0%, 73%;
+    --settings-color-secondary-dark: 0, 0%, 0%;
+
+    --settings-color-bg: 0, 0%, 100%;
+    --settings-color-surface: 0, 0%, 100%;
+    --settings-color-error: 0, 87%, 61%;
+    --settings-color-success: 173, 100%, 43%;
+
+    /*
+    * Text colors settings
+    * - You need to change only the --settings HSL values below
+    */
+    --settings-color-on-bg: 0, 0%, 0%;
+    --settings-color-on-surface: 0, 0%, 0%;
+    --settings-color-on-primary: 0, 0%, 0%;
+    --settings-color-on-secondary: 0, 0%, 100%;
+    --settings-color-on-error: 0, 0%, 100%;
+    --settings-color-on-success: 0, 0%, 100%;
+
+    /*
+    * Color contrasts
+    * - Color emphasys transparency levels
+    * - The colors has three transparency leves: hi, medium and low
+    */
+    --color-contrast-hi: 0.87;
+    --color-contrast-medium: 0.60;
+    --color-contrast-low: 0.37;
+
+    /**
+    * Base colors
+    * - Does not change the values below,
+    * they are based on the --settings values
+    */
+    --color-primary: hsla(var(--settings-color-primary), 1);
+    --color-primary-contrast-hi: hsla(var(--settings-color-primary), var(--color-contrast-hi));
+    --color-primary-contrast-medium: hsla(var(--settings-color-primary), var(--color-contrast-medium));
+    --color-primary-contrast-low: hsla(var(--settings-color-primary), var(--color-contrast-low));
+
+    --color-primary-light: hsla(var(--settings-color-primary-light), 1);
+    --color-primary-light-contrast-hi: hsla(var(--settings-color-primary-light), var(--color-contrast-hi));
+    --color-primary-light-contrast-medium: hsla(var(--settings-color-primary-light), var(--color-contrast-medium));
+    --color-primary-light-contrast-low: hsla(var(--settings-color-primary-light), var(--color-contrast-low));
+
+    --color-primary-dark: hsla(var(--settings-color-primary-dark), 1);
+    --color-primary-dark-contrast-hi: hsla(var(--settings-color-primary-dark), var(--color-contrast-hi));
+    --color-primary-dark-contrast-medium: hsla(var(--settings-color-primary-dark), var(--color-contrast-medium));
+    --color-primary-dark-contrast-low: hsla(var(--settings-color-primary-dark), var(--color-contrast-low));
+
+    --color-secondary: hsla(var(--settings-color-secondary), 1);
+    --color-secondary-contrast-hi: hsla(var(--settings-color-secondary), var(--color-contrast-hi));
+    --color-secondary-contrast-medium: hsla(var(--settings-color-secondary), var(--color-contrast-medium));
+    --color-secondary-contrast-low: hsla(var(--settings-color-secondary), var(--color-contrast-low));
+
+    --color-secondary-light: hsla(var(--settings-color-secondary-light), 1);
+    --color-secondary-light-contrast-hi: hsla(var(--settings-color-secondary-light), var(--color-contrast-hi));
+    --color-secondary-light-contrast-medium: hsla(var(--settings-color-secondary-light), var(--color-contrast-medium));
+    --color-secondary-light-contrast-low: hsla(var(--settings-color-secondary-light), var(--color-contrast-low));
+
+    --color-secondary-dark: hsla(var(--settings-color-secondary-dark), 1);
+    --color-secondary-dark-contrast-hi: hsla(var(--settings-color-secondary-dark), var(--color-contrast-hi));
+    --color-secondary-dark-contrast-medium: hsla(var(--settings-color-secondary-dark), var(--color-contrast-medium));
+    --color-secondary-dark-contrast-low: hsla(var(--settings-color-secondary-dark), var(--color-contrast-low));
+
+    --color-bg: hsla(var(--settings-color-bg), 1);
+    --color-surface: hsla(var(--settings-color-surface), 1);
+    --color-error: hsla(var(--settings-color-error), 1);
+    --color-success: hsla(var(--settings-color-success), 1);
+
+    /*
+    * Text colors
+    * - Does not change the values below,
+    * they are based on the --settings values
+    */
+    --color-on-bg: hsla(var(--settings-color-on-bg), 1);
+    --color-on-bg-hi: hsla(var(--settings-color-on-bg), var(--color-contrast-hi));
+    --color-on-bg-medium: hsla(var(--settings-color-on-bg), var(--color-contrast-medium));
+    --color-on-bg-low: hsla(var(--settings-color-on-bg), var(--color-contrast-low));
+
+    --color-on-surface: hsla(var(--settings-color-on-surface), 1);
+    --color-on-surface-hi: hsla(var(--settings-color-on-surface), var(--color-contrast-hi));
+    --color-on-surface-medium: hsla(var(--settings-color-on-surface), var(--color-contrast-medium));
+    --color-on-surface-low: hsla(var(--settings-color-on-surface), var(--color-contrast-low));
+
+    --color-on-primary: hsla(var(--settings-color-on-primary), 1);
+    --color-on-primary-hi: hsla(var(--settings-color-on-primary), var(--color-contrast-hi));
+    --color-on-primary-medium: hsla(var(--settings-color-on-primary), var(--color-contrast-medium));
+    --color-on-primary-low: hsla(var(--settings-color-on-primary), var(--color-contrast-low));
+
+    --color-on-secondary: hsla(var(--settings-color-on-secondary), 1);
+    --color-on-secondary-hi: hsla(var(--settings-color-on-secondary), var(--color-contrast-hi));
+    --color-on-secondary-medium: hsla(var(--settings-color-on-secondary), var(--color-contrast-medium));
+    --color-on-secondary-low: hsla(var(--settings-color-on-secondary), var(--color-contrast-low));
+
+    --color-on-error: hsla(var(--settings-color-on-error), 1);
+    --color-on-error-hi: hsla(var(--settings-color-on-error), var(--color-contrast-hi));
+    --color-on-error-medium: hsla(var(--settings-color-on-error), var(--color-contrast-medium));
+    --color-on-error-low: hsla(var(--settings-color-on-error), var(--color-contrast-low));
+
+    --color-on-success: hsla(var(--settings-color-on-success), 1);
+    --color-on-success-hi: hsla(var(--settings-color-on-success), var(--color-contrast-hi));
+    --color-on-success-medium: hsla(var(--settings-color-on-success), var(--color-contrast-medium));
+    --color-on-success-low: hsla(var(--settings-color-on-success), var(--color-contrast-low));
+
+    /*
+    * Background color
+    * - Does not change the value below,
+    * it is basedd on the --color-bg value
+    * - If you want to change the background color,
+    * so change the --color-bg value in the
+    * base colors settings section above
+    */
+    background-color: var(--color-bg);
+
+}

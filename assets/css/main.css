@@ -1,0 +1,48 @@
+/* ********** */
+/* Global properties */
+/* ********** */
+
+/* Extra small screens */
+:root {
+
+    /* scroll */
+    scroll-behavior: smooth;
+
+}
+
+/**
+* Body definitions
+* - Does not change below
+* - Open typography.css file to change the values
+*/
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    color: var(--color-on-surface-hi);
+}
+
+/* Global resets */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+    transition: color 0.3s;
+}
+
+strong {
+    /* color: red; */
+    color: var(--color-primary-contrast-hi);
+}
+
+a:hover {
+    color: var(--color-primary-contrast-hi);
+}

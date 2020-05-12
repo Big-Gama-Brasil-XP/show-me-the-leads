@@ -1,0 +1,156 @@
+/* https://google-webfonts-helper.herokuapp.com/fonts/quicksand?subsets=latin */
+
+/* quicksand-regular - latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/quicksand-v13-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('./fonts/quicksand-v13-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./fonts/quicksand-v13-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/quicksand-v13-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('./fonts/quicksand-v13-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/quicksand-v13-latin-regular.svg#Quicksand') format('svg');
+    /* Legacy iOS */
+}
+
+/* quicksand-500 - latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/quicksand-v13-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('./fonts/quicksand-v13-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./fonts/quicksand-v13-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/quicksand-v13-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('./fonts/quicksand-v13-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/quicksand-v13-latin-500.svg#Quicksand') format('svg');
+    /* Legacy iOS */
+}
+
+/* quicksand-700 - latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/quicksand-v13-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('./fonts/quicksand-v13-latin-700.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./fonts/quicksand-v13-latin-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/quicksand-v13-latin-700.woff') format('woff'),
+        /* Modern Browsers */
+        url('./fonts/quicksand-v13-latin-700.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/quicksand-v13-latin-700.svg#Quicksand') format('svg');
+    /* Legacy iOS */
+}
+
+/* extra small screens */
+:root {
+
+    /**
+    * root size
+    * - Change the root size if you want
+    * to increase all the text sizes
+    */
+    font-size: 16px;
+
+    /* Default font settings */
+    --font-family: 'Quicksand', sans-serif;
+    --font-weight: 500;
+    /* regular */
+    --font-size: 1rem;
+    /* 16px */
+
+    /* Default font size increments */
+    --font-size-increment-title: 0.5rem;
+    --font-size-increment-text: 0.25rem;
+    --font-size-increment-text-large: 0.25rem;
+    --font-size-increment-subtitle: 0.25rem;
+    --font-size-increment-caption: 0.25rem;
+    --font-size-increment-button: 0rem;
+
+    /* Default headings font settings */
+    --font-family-title: 'Quicksand', sans-serif;
+    --font-weight-title: 400;
+    --line-height-title: 1.2;
+
+    --settings-title-level-1: 1.75rem;
+    /* 28px */
+    --settings-title-level-2: 1.5rem;
+    /* 24px */
+    --settings-title-level-3: 1.25rem;
+    /* 20px */
+    --settings-title-level-4: 1rem;
+    /* 16px */
+
+    --settings-subtitle: 1.5rem;
+    /* 24px */
+    --settings-text: 1.125rem;
+    /* 18px */
+    --settings-text-large: 1.25rem;
+    /* 20px */
+    --settings-caption: 0.9375rem;
+    /* 15px */
+    --settings-button: 0.875rem;
+    /* 14px */
+
+    --title-level-1: var(--settings-title-level-1);
+    --title-level-2: var(--settings-title-level-2);
+    --title-level-3: var(--settings-title-level-3);
+    --title-level-4: var(--settings-title-level-4);
+
+    --subtitle: var(--settings-subtitle);
+    --text: var(--settings-text);
+    --text-large: var(--settings-text-large);
+    --caption: var(--settings-caption);
+    --button: var(--settings-button);
+
+    /* General text settings */
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+/* small screens */
+@media screen and (min-width: 600px) {
+    :root {
+        --title-level-1: calc(var(--settings-title-level-1) + var(--font-size-increment-title));
+        --title-level-2: calc(var(--settings-title-level-2) + var(--font-size-increment-title));
+        --title-level-3: calc(var(--settings-title-level-3) + var(--font-size-increment-title));
+        --title-level-4: calc(var(--settings-title-level-4) + var(--font-size-increment-title));
+    }
+}
+
+/* large screens */
+@media screen and (min-width: 1200px) {
+    :root {
+        --title-level-1: calc(var(--settings-title-level-1) + (3 * var(--font-size-increment-title)));
+        --title-level-2: calc(var(--settings-title-level-2) + (3 * var(--font-size-increment-title)));
+        --title-level-3: calc(var(--settings-title-level-3) + (3 * var(--font-size-increment-title)));
+        /* --title-level-4: calc(var(--settings-title-level-4) + (3 * var(--font-size-increment-title))); */
+        --text: calc(var(--settings-text) + var(--font-size-increment-text));
+        --text-large: calc(var(--settings-text-large) + var(--font-size-increment-text-large));
+        --subtitle: calc(var(--settings-subtitle) + var(--font-size-increment-subtitle));
+        --button: calc(var(--settings-button) + var(--font-size-increment-button));
+        --caption: calc(var(--settings-caption) + var(--font-size-increment-caption));
+    }
+}

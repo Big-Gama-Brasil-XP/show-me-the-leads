@@ -1,0 +1,43 @@
+/* Theme */
+
+@import './color.css';
+@import './space.css';
+@import './typography.css';
+@import './main.css';
+
+
+/* ******************** */
+/* Components */
+/* ******************** */
+
+
+/* ******************** */
+/* Organisms */
+/* ******************** */
+
+@import './components/organisms/o-section.css';
+@import './components/organisms/o-wrapper.css';
+
+/* o-main-header__wrapper component */
+.o-navbar__wrapper {
+    padding: calc(var(--space-grid) * 2);
+}
+
+.o-thank-you-header {
+    height: calc(100vh - 64px);
+    align-content: center;
+}
+
+/* ******************** */
+/* Atoms */
+/* ******************** */
+
+@import './components/atoms/a-title.css';
+@import './components/atoms/a-text.css';
+
+/* logo component */
+.a-logo {
+    display: block;
+    height: 32px;
+    width: auto;
+}
