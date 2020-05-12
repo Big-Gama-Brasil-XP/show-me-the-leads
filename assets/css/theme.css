@@ -25,8 +25,11 @@
 
 /* o-thank-you-header component */
 .o-thank-you-header {
-    height: calc(100vh - 64px);
-    align-content: center;
+    /* height: calc(100vh - 64px); */
+    /* align-content: center; */
+}
+.o-thank-you-header__wrapper {
+    padding-bottom: 0;
 }
 
 /* o-section-intro component */
