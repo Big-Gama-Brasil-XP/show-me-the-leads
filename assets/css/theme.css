@@ -4,3 +4,9 @@
 @import './space.css';
 @import './typography.css';
 @import './main.css';
+
+/* Components */
+
+/* Organisms */
+@import './components/organisms/o-section.css';
+@import './components/organisms/o-wrapper.css';
