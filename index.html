@@ -1,14 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Show me the leads</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeYou - assista a filmes e séries com seus amigos online</title>
+    <link rel="stylesheet" href="assets/css/theme.css">
+</head>
 
-    <body>
-        <h1>documento inicial</h1>
-    </body>
+<body>
+
+    <!-- navbar -->
+    <header class="o-section o-navbar">
+        <div class="o-wrapper o-wrapper--centered-content o-navbar__wrapper">
+
+            <figure>
+                <img class="a-logo" src="assets/logo.svg" alt="MeYou logo">
+            </figure>
+
+        </div>
+    </header>
+
+    <!-- main content -->
+    <main>
+
+        <section class="o-section o-section-intro-home">
+            <div class="o-wrapper o-wrapper--centered-content o-wrapper--padding-section o-wrapper--row-gap--large">
+
+                <!-- intro header -->
+                <section class="o-wrapper o-wrapper--row-gap--normal">
+
+                    <h1 class="a-title a-title--level-1">
+                        Um título vendedor bem aqui neste lugar
+                    </h1>
+    
+                    <p class="a-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, suscipit.
+                    </p>
+
+                </section>
+
+                <!-- intro body -->
+                <section class="o-section">
+
+                    <form
+                        class="o-wrapper o-wrapper--row-gap--normal m-form-capture"
+                        method="POST" 
+                        action="https://smtl.gama.academy/leads/db21f310-915e-11ea-9e98-2f3c29e0891c"
+                    >
+                       
+                        <input
+                            class="a-input"
+                            name="name"
+                            type="text"
+                            pattern="^\D{2,}\s[\D\s]{2,}$"
+                            title="Digite seu nome completo"
+                            placeholder="Seu nome completo"
+                            required
+                        />
+                        
+                        <input
+                            class="a-input"
+                            name="email"
+                            type="email"
+                            title="Digite um e-mail válido"
+                            placeholder="Seu e-mail"
+                            required
+                        />
+                        
+                        <input name="redirectTo" type="hidden" value="https://meyu.live/thank-you.html" />
+                        
+                        <input name="debugMode" type="hidden" value="false" />
+                        
+                        <input 
+                            class="a-button a-button--large" 
+                            type="submit" 
+                            value="Eu quero"
+                        />
+    
+                    </form>
+
+                </section>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer></footer>
+
+</body>
 
 </html>

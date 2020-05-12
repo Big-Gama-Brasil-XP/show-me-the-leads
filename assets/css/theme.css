@@ -23,7 +23,14 @@
     padding: calc(var(--space-grid) * 2);
 }
 
+/* o-thank-you-header component */
 .o-thank-you-header {
+    height: calc(100vh - 64px);
+    align-content: center;
+}
+
+/* o-section-intro component */
+.o-section-intro-home {
     height: calc(100vh - 64px);
     align-content: center;
 }
@@ -34,6 +41,8 @@
 
 @import './components/atoms/a-title.css';
 @import './components/atoms/a-text.css';
+@import './components/atoms/a-input.css';
+@import './components/atoms/a-button.css';
 
 /* logo component */
 .a-logo {
