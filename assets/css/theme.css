@@ -10,3 +10,17 @@
 /* Organisms */
 @import './components/organisms/o-section.css';
 @import './components/organisms/o-wrapper.css';
+
+/* o-main-header__wrapper component */
+.o-navbar__wrapper {
+    padding: calc(var(--space-grid) * 2);
+}
+
+/* Atoms */
+
+/* logo component */
+.a-logo {
+    display: block;
+    height: 32px;
+    width: auto;
+}
