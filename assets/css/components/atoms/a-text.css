@@ -1,0 +1,27 @@
+/* a-text component */
+.a-text {
+    font-size: var(--text);
+    line-height: 1.4;
+    color: var(--color);
+    word-break: break-word;
+}
+
+.a-text--large {
+    font-size: var(--text-large);
+}
+
+.a-text--caption {
+    font-size: var(--caption);
+}
+
+.a-text--center {
+    text-align: center;
+}
+
+.a-text--left {
+    text-align: left;
+}
+
+.a-text--right {
+    text-align: right;
+}
