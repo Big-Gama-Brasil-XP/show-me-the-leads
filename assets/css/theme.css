@@ -226,7 +226,7 @@
 
 .a-intro-home__text,
 .a-sozinho-home__text {
-    color: var(--color-on-primary-medium);
+    color: var(--color-on-primary);
 }
 
 .a-hidden {
@@ -234,7 +234,7 @@
 }
 
 .a-intro-home__input {
-    color: var(--color-on-primary-medium);
+    color: var(--color-on-primary);
     border-color: var(--color-on-primary-medium);
 }
 
