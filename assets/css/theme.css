@@ -357,3 +357,28 @@
         padding: 2%;
     }
 }
+
+.a-smidias-header {
+    display: none;
+}
+
+.a-smidias-header img {
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .a-smidias-header {
+        display: flex;
+        position: relative;
+        top: 20px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .o-content-header {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+}
