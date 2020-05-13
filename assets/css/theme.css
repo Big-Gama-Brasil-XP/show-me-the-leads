@@ -53,10 +53,68 @@
 }
 
 /* o-section-intro component */
-.o-section-intro-home {
-    height: calc(100vh - 64px);
-    align-content: center;
+.o-intro-home {
+    /* height: calc(100vh - 64px); */
+    /* align-content: center; */
+    background: linear-gradient(0deg, rgba(31, 61, 164, 0.95),
+                rgba(31, 61, 164, 0.95)), 
+                url('../image-bg-intro-home-xs.jpg') no-repeat center;
+    background-size: cover;
 }
+
+@media screen and (min-width: 1200px) {
+    .o-intro-home {
+        background: linear-gradient(0deg, rgba(31, 61, 164, 0.95),
+                    rgba(31, 61, 164, 0.95)), 
+                    url('../image-bg-intro-home-lg.jpg') no-repeat center;
+        background-size: cover;
+    }
+}
+
+/* o-intro-home__header component */
+@media screen and (min-width: 600px) {
+    .o-intro-home__header {
+        grid-column: 2/8;
+        grid-row: 1/2;
+    }
+}
+@media screen and (min-width: 900px) {
+    .o-intro-home__header {
+        grid-column: 3/7;
+        grid-row: 1/2;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .o-intro-home__header {
+        grid-column: 1/7;
+        grid-row: 1/2;
+        text-align: left;
+    }
+}
+
+/* o-intro-home__header component */
+@media screen and (min-width: 600px) {
+    .o-intro-home__body {
+        grid-column: 2/8;
+        grid-row: 2/3;
+    }
+}
+@media screen and (min-width: 900px) {
+    .o-intro-home__body {
+        grid-column: 3/7;
+        grid-row: 2/3;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .o-intro-home__body {
+        grid-column: 8/13;
+        grid-row: 1/2;
+        align-content: center;
+    }
+}
+
+
+
 
 /* ******************** */
 /* Atoms */
@@ -77,5 +135,42 @@
 @media screen and (min-width: 1200px) {
     .a-logo {
         height: 2.875rem;
+    }
+}
+
+.a-intro-home__title {
+    color: var(--color-on-primary-hi);
+}
+
+.a-intro-home__text {
+    color: var(--color-on-primary-medium);
+}
+
+.a-hidden {
+    display: none;
+}
+
+.a-intro-home__input {
+    color: var(--color-on-primary-medium);
+    border-color: var(--color-on-primary-medium);
+}
+
+.a-intro-home__input::placeholder {
+    color: var(--color-on-primary-medium);
+}
+
+.a-intro-home__input:focus {
+    border-color: var(--color-secondary-contrast-medium);
+}
+
+.a-intro-home__input:-webkit-autofill {
+    animation-name: autofill-on-primary;
+    animation-fill-mode: both;
+}
+
+@keyframes autofill-on-primary {
+    to {
+        color: var(--color-on-primary-medium);
+        background: transparent;
     }
 }

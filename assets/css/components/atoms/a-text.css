@@ -25,3 +25,7 @@
 .a-text--right {
     text-align: right;
 }
+
+.a-text--marked-on-primary {
+    color: var(--color-secondary);
+}
