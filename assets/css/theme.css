@@ -126,32 +126,14 @@
     gap: calc(var(--space-grid) * 8);
 }
 
-/* o-section-sozinho component */
+/* o-sozinho-home component */
 .o-sozinho-home {
-    align-content: left;
-    padding: 7% 6%;
+    /* align-content: left; */
+    /* padding: 7% 6%; */
     background: linear-gradient(0deg, rgba(31, 61, 164, 0.95),
                 rgba(31, 61, 164, 0.95)), 
                 url('../image-bg-sozinho-home.jpg') no-repeat center;
     background-size: cover;
-}
-
-
-@media screen and (min-width: 1200px) {
-    .o-sozinho-home {
-        padding-left: 15%;
-        padding-right: 15%;
-        background: linear-gradient(0deg, rgba(31, 61, 164, 0.95),
-                    rgba(31, 61, 164, 0.95)), 
-                    url('../image-bg-sozinho-home.jpg') no-repeat center;
-        background-size: cover;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .o-sozinho-home_header {
-        height: 100vh;
-    }
 }
 
 .o-features {
@@ -239,7 +221,7 @@
 
 .a-intro-home__text,
 .a-sozinho-home__text {
-    color: var(--color-on-primary);
+    color: var(--color-on-primary-medium);
 }
 
 .a-hidden {
