@@ -17,6 +17,12 @@
     row-gap: calc(var(--space-grid) * 2);
 }
 
+.form-wrapper {
+    padding: 50px;
+    background-color: white;
+    border-radius: 50px;
+}
+
 @media screen and (min-width: 600px) {
     .o-wrapper--row-gap--normal {
         row-gap: calc(var(--space-grid) * 3);
