@@ -103,3 +103,7 @@
     color: var(--color-on-secondary);
 }
 
+.a-button--width--fit {
+    width: fit-content;
+}
+
