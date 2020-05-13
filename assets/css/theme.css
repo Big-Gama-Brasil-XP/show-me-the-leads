@@ -237,12 +237,12 @@
 }
 
 .a-intro-home__title {
-    color: var(--color-on-primary-hi);
+    color: #ffffff;
 }
 
 .a-intro-home__text,
 .a-sozinho-home__text {
-    color: var(--color-on-primary-medium);
+    color: #ffffff;
 }
 
 .a-hidden {
@@ -250,7 +250,7 @@
 }
 
 .a-intro-home__input {
-    color: var(--color-on-primary);
+    color: #ffffff;
     border-color: var(--color-on-primary-medium);
 }
 
@@ -275,7 +275,7 @@
 }
 
 .a-sozinho-home__title {
-    color: var(--color-surface);
+    color: #ffffff;
     text-align: center;
 }
 
