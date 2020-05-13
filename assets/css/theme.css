@@ -121,7 +121,7 @@
 /* o-section-sozinho component */
 .o-sozinho-home {
     align-content: left;
-    padding: 7% 5%;
+    padding: 7% 6%;
     background: linear-gradient(0deg, rgba(31, 61, 164, 0.95),
                 rgba(31, 61, 164, 0.95)), 
                 url('../image-bg-sozinho-home.jpg') no-repeat center;
@@ -150,6 +150,18 @@
     .o-features {
         grid-template-columns: 1fr 1fr 1fr;
         gap: calc(var(--space) * 2);
+    }
+}
+
+/* o-section-more component */
+.o-more-home {
+    align-items: center;
+    padding: 20% 6%;
+}
+
+@media screen and (min-width: 1200px) {
+    .o-more-home {
+        padding: 8% 15%;
     }
 }
 
@@ -267,3 +279,6 @@
     }
 }
 
+.a-more-home__title {
+    text-align: center;
+}
