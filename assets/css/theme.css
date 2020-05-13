@@ -185,6 +185,15 @@
     align-items: center;
 }
 
+@media screen and (min-width: 600px) {
+    .m-wrapper-form {
+        background-color: var(--color-surface);
+        width: 90%;
+        margin: auto;
+        border-radius: 50px;
+    }
+}
+
 .m-footer {
     display: flex;
     justify-content: space-between;

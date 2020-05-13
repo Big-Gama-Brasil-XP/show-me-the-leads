@@ -248,49 +248,52 @@
 
             <section class="o-section o-intro-home__body">
 
-                <section class="o-wrapper form-wrapper">
-                    <form
-                        class="o-wrapper o-wrapper--row-gap--normal m-form-capture"
-                        method="POST" 
-                        action="https://smtl.gama.academy/leads/db21f310-915e-11ea-9e98-2f3c29e0891c"
-                    >
+                <section class="o-section">
+                    <div class="m-wrapper-form">
+                        <form
+                            id="quizform"
+                            class="o-wrapper o-wrapper--row-gap--normal m-form-capture"
+                            method="POST" 
+                            action="https://smtl.gama.academy/leads/db21f310-915e-11ea-9e98-2f3c29e0891c"
+                        >
 
-                        <label for="name" class="a-hidden">SEU NOME COMPLETO</label>
-                    
-                        <input
-                            class="a-input"
-                            id="name"
-                            name="name"
-                            type="text"
-                            pattern="^\D{2,}\s[\D\s]{2,}$"
-                            title="Digite seu nome completo"
-                            placeholder="Seu nome completo"
-                            required
-                        />
+                            <label for="name" class="a-hidden">SEU NOME COMPLETO</label>
+                        
+                            <input
+                                class="a-input"
+                                id="name"
+                                name="name"
+                                type="text"
+                                pattern="^\D{2,}\s[\D\s]{2,}$"
+                                title="Digite seu nome completo"
+                                placeholder="Seu nome completo"
+                                required
+                            />
 
-                        <label for="email" class="a-hidden">SEU E-MAIL</label>
-                        
-                        <input
-                            class="a-input"
-                            id="email"
-                            name="email"
-                            type="email"
-                            title="Digite um e-mail válido"
-                            placeholder="Seu e-mail"
-                            required
-                        />
-                        
-                        <input name="redirectTo" type="hidden" value="https://meyu.live/thank-you.html" />
-                        
-                        <input name="debugMode" type="hidden" value="false" />
-                        
-                        <input 
-                            class="a-button a-button--cta a-button--secondary" 
-                            type="submit" 
-                            value="Acesse o Quiz"
-                        />
+                            <label for="email" class="a-hidden">SEU E-MAIL</label>
+                            
+                            <input
+                                class="a-input"
+                                id="email"
+                                name="email"
+                                type="email"
+                                title="Digite um e-mail válido"
+                                placeholder="Seu e-mail"
+                                required
+                            />
+                            
+                            <input name="redirectTo" type="hidden" value="https://meyu.live/thank-you.html" />
+                            
+                            <input name="debugMode" type="hidden" value="false" />
+                            
+                            <input 
+                                class="a-button a-button--cta a-button--secondary" 
+                                type="submit" 
+                                value="Acesse o Quiz"
+                            />
 
-                    </form>
+                        </form>
+                    </div>
                 </section>
             </section>
         </div>
