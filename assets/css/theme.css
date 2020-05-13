@@ -183,6 +183,19 @@
     display: grid;
     align-items: center;
 }
+
+.m-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 15%;
+    width: 100vw;
+}
+
+@media screen and (min-width: 900px) {
+    .m-footer {
+        padding: 25px 8%;
+    }
+}
     
 
 /* ******************** */
@@ -281,4 +294,22 @@
 
 .a-more-home__title {
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .a-smidias {
+        display: none;
+    }
+}
+
+.a-smidias img {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+}
+
+@media screen and (min-width: 1200px) {
+    .a-smidias {
+        display: flex;
+    }
 }
