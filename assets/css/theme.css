@@ -121,8 +121,7 @@
 /* o-section-sozinho component */
 .o-sozinho-home {
     align-content: left;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 7% 5%;
     background: linear-gradient(0deg, rgba(31, 61, 164, 0.95),
                 rgba(31, 61, 164, 0.95)), 
                 url('../image-bg-sozinho-home.jpg') no-repeat center;
