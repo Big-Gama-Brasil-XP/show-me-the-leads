@@ -29,3 +29,7 @@
 .a-text--marked-on-primary {
     color: var(--color-secondary);
 }
+
+.a-text--marked-on-bg {
+    color: var(--color-primary);
+}
