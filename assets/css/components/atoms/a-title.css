@@ -3,6 +3,7 @@
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-title);
     line-height: var(--line-height-title);
+    color: var(--color-primary);
 }
 
 .a-title--level-1 {

@@ -113,6 +113,11 @@
     }
 }
 
+/* o-what-home__wrapper component */
+.o-what-home__wrapper {
+    gap: calc(var(--space) * 4);
+}
+
 /* o-section-sozinho component */
 .o-sozinho-home {
     align-content: left;
@@ -142,6 +147,32 @@
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .o-features {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: calc(var(--space) * 2);
+    }
+}
+
+
+/* ******************** */
+/* Molecules */
+/* ******************** */
+
+
+.m-feature {
+    display: grid;
+    grid-template-rows: 7rem auto auto;
+    gap: var(--space);
+    justify-items: center;
+    max-width: 18rem;
+}
+
+.m-feature__header {
+    display: grid;
+    align-items: center;
+}
+    
 
 /* ******************** */
 /* Atoms */
@@ -218,6 +249,11 @@
     }
 }
 
+
+.a-feature__title {
+    text-transform: uppercase;
+}
+
 .a-button-sozinho {
     white-space: normal;
     margin-top: 20px;
@@ -231,3 +267,4 @@
         margin-top: 20px;
     }
 }
+
