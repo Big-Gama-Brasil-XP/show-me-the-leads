@@ -34,33 +34,34 @@
     <!-- main content -->
     <main>
 
-        <section class="o-section o-section-intro-home">
-            <div class="o-wrapper o-wrapper--centered-content o-wrapper--padding-section o-wrapper--row-gap--large">
+        <section class="o-section o-intro-home">
+            <div class="o-wrapper o-wrapper--centered-content o-wrapper--padding-section o-wrapper--row-gap--large o-wrapper--columns o-wrapper--boxed">
 
                 <!-- intro header -->
-                <section class="o-wrapper o-wrapper--row-gap--normal">
+                <section class="o-wrapper o-wrapper--row-gap--normal o-intro-home__header">
 
-                    <h1 class="a-title a-title--level-1">
-                        Um título vendedor bem aqui neste lugar
+                    <h1 class="a-title a-title--level-1 a-intro-home__title">
+                        Filmes, séries e muito mais, com entretenimento, interação e conexão!
                     </h1>
     
-                    <p class="a-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, suscipit.
-                    </p>
+                    <p class="a-text a-intro-home__text">Aqui na MeYu acreditamos que você pode <b class="a-text--marked-on-primary">ter o controle</b> de como usufruir de momentos divertidos com seus amigos e familiares.</p>
 
                 </section>
 
                 <!-- intro body -->
-                <section class="o-section">
+                <section class="o-section o-intro-home__body">
 
                     <form
                         class="o-wrapper o-wrapper--row-gap--normal m-form-capture"
                         method="POST" 
                         action="https://smtl.gama.academy/leads/db21f310-915e-11ea-9e98-2f3c29e0891c"
                     >
+
+                        <label for="name" class="a-hidden">SEU NOME COMPLETO</label>
                        
                         <input
-                            class="a-input"
+                            class="a-input a-intro-home__input"
+                            id="name"
                             name="name"
                             type="text"
                             pattern="^\D{2,}\s[\D\s]{2,}$"
@@ -68,9 +69,12 @@
                             placeholder="Seu nome completo"
                             required
                         />
+
+                        <label for="email" class="a-hidden">SEU E-MAIL</label>
                         
                         <input
-                            class="a-input"
+                            class="a-input a-intro-home__input"
+                            id="email"
                             name="email"
                             type="email"
                             title="Digite um e-mail válido"
@@ -83,14 +87,29 @@
                         <input name="debugMode" type="hidden" value="true" />
                         
                         <input 
-                            class="a-button a-button--large" 
+                            class="a-button a-button--cta a-button--secondary" 
                             type="submit" 
-                            value="Eu quero"
+                            value="Acesse o Quiz"
                         />
     
                     </form>
 
                 </section>
+
+
+
+                <!-- <section class="o-wrapper o-wrapper--row-gap--normal">
+
+                    <p>Somos uma multiplataforma de entretenimento que possibilita a <b>interação em tempo real!</b></p>
+                            
+                    <p>Personalize seu ambiente de conteúdos, compartilhe seu gostos com sua rede e seja reconhecido como o mais <b>cinéfilo de todos!</b></p>
+
+                    <p>Mas, antes desta experiência começar, descubra se você é o <b>Rei dos Cinéfilos!</b> Responda o nosso quiz!</p>
+
+                </section> -->
+
+
+                
 
             </div>
         </section>
