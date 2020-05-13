@@ -46,3 +46,10 @@ strong {
 a:hover {
     color: var(--color-primary-contrast-hi);
 }
+
+input {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    color: var(--color-on-surface-hi);
+}
