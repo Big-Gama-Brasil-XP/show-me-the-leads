@@ -10,8 +10,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html thank-you.html quiz-cinefilos.html",
-    "build": "parcel build index.html thank-you.html quiz-cinefilos.html"
+    "dev": "parcel index.html thank-you.html quiz-cinefilos.html social-image.png",
+    "build": "parcel build index.html thank-you.html quiz-cinefilos.html social-image.png"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
