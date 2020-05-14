@@ -22,3 +22,12 @@ function onMouseOut(event) {
 }
 
 document.addEventListener("mouseout", onMouseOut);
+
+
+function toggle(obj1) {
+  var el = document.getElementById(obj1);
+
+  if ( el.style.display != 'none' ) {
+  el.style.display = 'none';
+  }
+}
