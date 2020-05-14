@@ -20,6 +20,7 @@
 
 .a-title--level-4 {
     font-size: var(--title-level-4);
+    text-transform: uppercase;
 }
 
 .a-title--center {

@@ -8,7 +8,6 @@ function showModal(modalID) {
       }
     })
   }
-  
 }
 
 function onMouseOut(event) {

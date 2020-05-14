@@ -72,6 +72,10 @@
 }
 
 /* o-intro-home__header component */
+.o-intro-home__header {
+    text-align: left;
+}
+
 @media screen and (min-width: 600px) {
     .o-intro-home__header {
         grid-column: 2/8;
@@ -116,41 +120,30 @@
 
 /* o-what-home__wrapper component */
 .o-what-home__wrapper {
-    gap: calc(var(--space) * 4);
+    /* gap: calc(var(--space) * 4); */
+    padding-top: calc(var(--padding-section) * 2);
+    padding-bottom: calc(var(--padding-section) * 2);
+    gap: calc(var(--space-grid) * 8);
 }
 
-/* o-section-sozinho component */
+/* o-sozinho-home component */
 .o-sozinho-home {
-    align-content: left;
-    padding: 7% 6%;
+    /* align-content: left; */
+    /* padding: 7% 6%; */
     background: linear-gradient(0deg, rgba(31, 61, 164, 0.95),
                 rgba(31, 61, 164, 0.95)), 
                 url('../image-bg-sozinho-home.jpg') no-repeat center;
     background-size: cover;
 }
 
-
-@media screen and (min-width: 1200px) {
-    .o-sozinho-home {
-        padding-left: 15%;
-        padding-right: 15%;
-        background: linear-gradient(0deg, rgba(31, 61, 164, 0.95),
-                    rgba(31, 61, 164, 0.95)), 
-                    url('../image-bg-sozinho-home.jpg') no-repeat center;
-        background-size: cover;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .o-sozinho-home_header {
-        height: 100vh;
-    }
+.o-features {
+    gap: calc(var(--space-grid) * 8);
 }
 
 @media screen and (min-width: 1200px) {
     .o-features {
         grid-template-columns: 1fr 1fr 1fr;
-        gap: calc(var(--space) * 2);
+        gap: calc(var(--space-grid) * 16);
     }
 }
 
@@ -166,6 +159,26 @@
     }
 }
 
+/* o-wrapper-form component */
+.o-wrapper-form {
+    background-color: var(--color-surface);
+    max-width: 400px;
+    border-radius: 50px;
+    padding: 50px 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .o-wrapper-form {
+        background-color: var(--color-surface);
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 50px;
+        padding: 50px 30px;
+    }
+}
+
+
+
 
 /* ******************** */
 /* Molecules */
@@ -178,6 +191,7 @@
     gap: var(--space);
     justify-items: center;
     max-width: 18rem;
+    align-content: start;
 }
 
 .m-feature__header {
@@ -189,7 +203,8 @@
     display: flex;
     justify-content: space-between;
     padding: 25px 15%;
-    width: 100vw;
+    width: 100%;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.06);
 }
 
 @media screen and (min-width: 900px) {
@@ -222,12 +237,12 @@
 }
 
 .a-intro-home__title {
-    color: var(--color-on-primary-hi);
+    color: #ffffff;
 }
 
 .a-intro-home__text,
 .a-sozinho-home__text {
-    color: var(--color-on-primary);
+    color: #ffffff;
 }
 
 .a-hidden {
@@ -235,7 +250,7 @@
 }
 
 .a-intro-home__input {
-    color: var(--color-on-primary);
+    color: #ffffff;
     border-color: var(--color-on-primary-medium);
 }
 
@@ -260,7 +275,7 @@
 }
 
 .a-sozinho-home__title {
-    color: var(--color-surface);
+    color: #ffffff;
     text-align: center;
 }
 
@@ -275,11 +290,12 @@
 }
 
 
-.a-feature__title {
+/* .a-feature__title {
     text-transform: uppercase;
-}
+} */
 
-.a-button-sozinho {
+.a-button-sozinho,
+.a-button-form {
     white-space: normal;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -288,9 +304,10 @@
 }
 
 @media screen and (max-width: 600px) {
-    .a-button-sozinho {
+    .a-button-sozinho, 
+    .a-button-form {
         white-space: normal;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }
 
@@ -316,6 +333,58 @@
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .a-what-home-footer__button {
+        display: none;
+    }
+}
+
+.a-what-home-footer__button-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .a-what-home-footer__button-desktop {
+        display: initial;
+    }
+}
+
+.a-last-home_text {
+    color: #ffffff;
+    padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .a-last-home_text {
+        padding: 2%;
+    }
+}
+
+.a-smidias-header {
+    display: none;
+}
+
+.a-smidias-header img {
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .a-smidias-header {
+        display: flex;
+        position: relative;
+        top: 20px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .o-content-header {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 /* pop-up modal */
 .modal-container {
     width: 100vw;
@@ -332,7 +401,6 @@
 
 .modal-container.show {
     display: flex;
-
 }
 
 .modal {
@@ -373,4 +441,3 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
-

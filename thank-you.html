@@ -33,11 +33,14 @@
     <meta property="og:image" content="https://meyu.live/social-image.png" />
     <meta property="og:description" content="Somos uma multiplataforma de entretenimento disponível a todo momento, em qualquer lugar. Um grande acervo de séries, filmes, documentários e shows, além apresentações ao vivo para divertir toda a família!" />
     <meta property="og:site_name" content="MeYu" />
-    <meta property="fb:admins" content="103589868026876/>
+    <meta property="fb:admins" content="103589868026876"/>
 
     <!-- <link rel=“canonical” href=”https://meyu.live/”/> -->
 
     <link rel="stylesheet" href="assets/css/theme.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/favicon.ico">
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -47,15 +50,30 @@
         if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
         n.queue=[];t=b.createElement(e);t.async=!0;
         t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '269588374179945');
+        fbq('init', '1793540827573074');
         fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=269588374179945&ev=PageView&noscript=1"
-        /></noscript>
-        <!-- End Facebook Pixel Code -->
+    </script>
+    <noscript>
+        <img height="1" width="1"
+        src="https://www.facebook.com/tr?id=1793540827573074&ev=PageView
+        &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Hotjar Tracking Code for https://meyu.live/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1810720,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    
 </head>
 
 <body>
@@ -64,9 +82,9 @@
     <header class="o-section o-navbar">
         <div class="o-wrapper o-navbar__wrapper">
 
-            <figure>
+            <a href="https://meyu.live/index.html">
                 <img class="a-logo" src="assets/logo.svg" alt="MeYou logo">
-            </figure>
+            </a>
 
         </div>
     </header>
@@ -99,7 +117,7 @@
                     </a>
     
                     <a 
-                        href="https://api.whatsapp.com/send?text=Ei%2C%20pessoal%20da%20MeYu%20criou%20esse%20quiz%20pra%20voc%C3%AA%20descobrir%20se%20gosta%20mesmo%20de%20cinema%20-%20https%3A%2F%2Fmeyu.live" 
+                        href="https://api.whatsapp.com/send?text=https%3A%2F%2Fbit.ly%2Fquizreidoscinefilos" 
                         target="_blank"
                         rel="noopener noreferrer nofollow"
                         class="a-button a-button--cta a-button--outlined"
@@ -115,7 +133,26 @@
     </main>
 
     <!-- footer -->
-    <footer></footer>
+    <footer>
+        <div class="o-wrapper o-wrapper--padding-section m-footer">
+
+            <div>
+                <p class="a-text"><b>Fale conosco</b></p>
+                <p class="a-text">meyuplay@gmail.com</p>
+            </div>
+
+            <div class="a-smidias">
+                <a href="https://www.facebook.com/MeYuplay">
+                    <img src="assets/facebook_logo.svg" alt="Página da Meyu no facebook">
+                </a>
+
+                <a href="https://www.instagram.com/meyuplay/">
+                    <img src="assets/instagram_logo.svg" alt="Página da Meyu no facebook">
+                </a>
+            </div>
+            
+        </div>
+    </footer>
 
 </body>
 
