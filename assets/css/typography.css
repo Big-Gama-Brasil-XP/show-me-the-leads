@@ -18,6 +18,7 @@
         /* Safari, Android, iOS */
         url('./fonts/quicksand-v13-latin-500.svg#Quicksand') format('svg');
     /* Legacy iOS */
+    font-display: swap;
 }
 
 /* quicksand-700 - latin */
@@ -38,6 +39,7 @@
         /* Safari, Android, iOS */
         url('./fonts/quicksand-v13-latin-700.svg#Quicksand') format('svg');
     /* Legacy iOS */
+    font-display: swap;
 }
 
 /* extra small screens */
