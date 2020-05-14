@@ -294,7 +294,8 @@
     text-transform: uppercase;
 } */
 
-.a-button-sozinho {
+.a-button-sozinho,
+.a-button-form {
     white-space: normal;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -303,9 +304,10 @@
 }
 
 @media screen and (max-width: 600px) {
-    .a-button-sozinho {
+    .a-button-sozinho, 
+    .a-button-form {
         white-space: normal;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }
 
