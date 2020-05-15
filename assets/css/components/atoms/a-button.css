@@ -7,6 +7,7 @@
     background-color: var(--color-primary);
     color: var(--color-on-primary);
     text-transform: uppercase;
+    font-family: var(--font-family);
     font-size: var(--button, 0.875rem);
     font-weight: 700;
     text-align: center;
