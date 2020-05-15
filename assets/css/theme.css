@@ -73,7 +73,7 @@
 
 /* o-intro-home__header component */
 .o-intro-home__header {
-    text-align: left;
+    /* text-align: left; */
 }
 
 @media screen and (min-width: 600px) {
@@ -163,18 +163,6 @@
     .o-features {
         grid-template-columns: 1fr 1fr 1fr;
         gap: calc(var(--space-grid) * 16);
-    }
-}
-
-/* o-section-more component */
-.o-more-home {
-    align-items: center;
-    padding: 20% 6%;
-}
-
-@media screen and (min-width: 1200px) {
-    .o-more-home {
-        padding: 8% 15%;
     }
 }
 
@@ -317,9 +305,9 @@
     }
 }
 
-.a-more-home__title {
+/* .a-more-home__title {
     text-align: center;
-}
+} */
 
 @media screen and (max-width: 600px) {
     .a-smidias {
