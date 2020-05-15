@@ -330,36 +330,6 @@
     }
 }
 
-.a-sozinho-home__title {
-    color: #ffffff;
-    text-align: center;
-}
-
-.a-sozinho-home_text {
-    padding: 0 20px;
-}
-
-@media screen and (min-width: 1200px) {
-    .a-sozinho-home_text {
-        height: 2.875rem;
-    }
-}
-
-.a-button-sozinho {
-    white-space: normal;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 5px 15px;
-    height: 12vh;
-}
-
-@media screen and (max-width: 600px) {
-    .a-button-sozinho {
-        white-space: normal;
-        margin-top: 10px;
-    }
-}
-
 .a-more-home__title {
     text-align: center;
 }
