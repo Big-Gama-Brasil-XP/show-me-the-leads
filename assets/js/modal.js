@@ -20,7 +20,7 @@ function showModal (modalID) {
       } 
       
       if (targetId == 'button-answer') {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, document.body.scrollHeight)
       }
 
     })
