@@ -178,24 +178,6 @@
     }
 }
 
-/* o-wrapper-form component */
-.o-wrapper-form {
-    background-color: var(--color-surface);
-    max-width: 400px;
-    border-radius: 50px;
-    padding: 50px 30px;
-}
-
-@media screen and (max-width: 600px) {
-    .o-wrapper-form {
-        background-color: var(--color-surface);
-        width: 100%;
-        margin: 0 auto;
-        border-radius: 50px;
-        padding: 50px 30px;
-    }
-}
-
 /* o-exit-modal component */
 .o-exit-modal {
     position: fixed;
@@ -229,6 +211,11 @@
 
 .o-exit-modal__body {
     padding: 0 var(--space) var(--space);
+}
+
+/* o-last-home component */
+.o-last-home {
+    background-color: var(--color-primary);
 }
 
 
