@@ -153,18 +153,15 @@
                 <!-- intro body -->
                 <section class="o-section o-intro-home__body">
 
-                    <a href="#quizform" class="a-button a-button--cta a-button--secondary a-button--width--fit">
-                        Acesse o quiz
-                    </a>
-
-                    <!-- <form
-                        class="o-wrapper o-wrapper--row-gap--normal m-form-capture"
+                    <form
+                        id="quizform"
+                        class="o-wrapper o-wrapper--row-gap--normal o-wrapper--centered-content m-form-capture"
                         method="POST" 
                         action="https://smtl.gama.academy/leads/db21f310-915e-11ea-9e98-2f3c29e0891c"
                     >
 
                         <label for="name" class="a-hidden">SEU NOME COMPLETO</label>
-                       
+                    
                         <input
                             class="a-input a-intro-home__input"
                             id="name"
@@ -190,15 +187,13 @@
                         
                         <input name="redirectTo" type="hidden" value="https://meyu.live/thank-you.html" />
                         
-                        <input name="debugMode" type="hidden" value="false" />
-                        
                         <input 
-                            class="a-button a-button--cta a-button--secondary" 
+                            class="a-button a-button--cta a-button--secondary a-button--width--fit a-intro-home__button" 
                             type="submit" 
                             value="Acesse o Quiz"
                         />
-    
-                    </form> -->
+
+                    </form>
 
                 </section>
                 
@@ -207,88 +202,37 @@
         
         <!-- what -->
         <section class="o-section o-what-home">
-            <div class="o-wrapper o-wrapper--centered-content o-wrapper--padding-section o-wrapper--row-gap--large o-wrapper--boxed o-what-home__wrapper">
+            <div class="o-wrapper o-wrapper--padding-section o-wrapper--row-gap--large o-wrapper--boxed">
                 
                 <!-- what header -->
-                <section class="o-wrapper o-wrapper--centered-content o-wrapper--row-gap--normal o-what-home__header">
+                <section class="o-wrapper o-wrapper--row-gap--normal">
 
-                    <h2 class="a-title a-title--level-1">
+                    <h2 class="a-title a-title--level-1 a-sozinho-home__title">
                         DESCUBRA A MEYU
                     </h2>
+
+                    <!-- what features -->
+                    <div class="o-wrapper o-wrapper--centered-content">
+
+                        <p class="a-text a-sozinho-home__text">
+                            A <b class="a-text--marked-on-primary">MEYU</b> é a sua nova plataforma de entretenimento. Estaremos disponíveis <b class="a-text--marked-on-primary">sempre que você quiser,</b> onde quer que você esteja. </b>Aqui, você poderá interagir com seus amigos em uma sala de cinema virtual, para assistir <b class="a-text--marked-on-primary">juntos, mesmo à distância.</b> Quer assistir aquele filme que você não encontra em lugar nenhum? É só pedir que <b class="a-text--marked-on-primary">nós vamos conseguir para<br> você!</b> 
+                        </p>
+
+                    </div>
                     
                 </section>
 
-                <!-- what features -->
-                <div class="o-wrapper o-wrapper--centered-content o-features">
-
-                    <article class="m-feature">
-                        
-                        <figure class="m-feature__header">
-                            <img 
-                                src="assets/image-acesso-ilimitado.svg" 
-                                alt="Acesso ilimitado"
-                            >
-                        </figure>
-                       
-                        <h4 class="a-title a-title--level-4">
-                            Acesso ilimitado
-                        </h4>
-                        
-                        <p class="a-text">
-                            A MeYu é uma multiplataforma de entretenimento disponível <b class="a-text--marked-on-bg">a todo momento</b>, em qualquer lugar. Um grande acervo de séries, filmes, documentários e shows, além apresentações ao vivo para divertir toda a família!
-                        </p>
-
-                    </article>
-    
-                    <article class="m-feature">
-                       
-                        <figure class="m-feature__header">
-                            <img 
-                                src="assets/image-seu-pedido-e-uma-ordem.svg"
-                                alt="Seu pedido é uma ordem"
-                            >
-                        </figure>
-                        
-                        <h4 class="a-title a-title--level-4">
-                            Seu pedido é uma ordem
-                        </h4>
-
-                        <p class="a-text">
-                            Ah! Sabe aquele filme que você não encontra em lugar nenhum? É só falar pra gente e <b class="a-text--marked-on-bg">nós encontramos para você</b>. Não precisa esperar que mais pessoas peçam o mesmo título, afinal, você é único.
-                        </p>
-
-                    </article>
-    
-                    <article class="m-feature">
-
-                        <figure class="m-feature__header">
-                            <img
-                                src="assets/image-juntos-a-distancia.svg"
-                                alt="Juntos, mesmo à distância"
-                            >
-                        </figure>
-
-                        <h4 class="a-title a-title--level-4">
-                            Juntos, mesmo à distância
-                        </h4>
-
-                        <p class="a-text">
-                            Quando tudo isso é compartilhado com quem você ama é melhor ainda, né? <b class="a-text--marked-on-bg">Convide seus amigos</b> para uma sessão virtual particular, e experimente a sensação de interagir como se estivessem juntos no sofá da sala.
-                        </p>
-
-                    </article>
-
-                </div>
+                
 
                 <!-- what footer -->
                 <section class="o-wrapper o-wrapper--centered-content">
 
                     <a href="#quizform" class="a-button a-button--cta a-button--secondary a-button--width--fit a-what-home-footer__button">
-                        Responda nosso quiz!
+                        ACESSE O QUIZ!
                     </a>
 
                     <a href="#quizform" class="a-button a-button--cta a-button--secondary a-button--width--fit a-what-home-footer__button-desktop">
-                        Você é o rei dos cinéfilos?<br>Descubra com o nosso quiz!
+                        ACESSE O QUIZ!
                     </a>
 
                 </section>
@@ -346,7 +290,7 @@
 
         <!-- last section -->
         <section class="o-section o-intro-home">
-            <div class="o-wrapper o-wrapper--centered-content o-wrapper--padding-section o-wrapper--row-gap--large o-wrapper--columns o-wrapper--boxed">
+            <div class="o-wrapper o-wrapper--centered-content o-wrapper--padding-section o-wrapper--row-gap--large o-wrapper--columns o-wrapper--boxed o-wrapper-align">
            
                 <section class="o-wrapper o-wrapper--row-gap--normal o-intro-home__header">
 
@@ -354,56 +298,12 @@
 
                 </section>
 
-                <section class="o-section ">
-
-                    <section class="o-section o-intro-home__body">
-                        <div class="o-wrapper-form">
-                            <form
-                                id="quizform"
-                                class="o-wrapper o-wrapper--row-gap--normal m-form-capture"
-                                method="POST" 
-                                action="https://smtl.gama.academy/leads/db21f310-915e-11ea-9e98-2f3c29e0891c"
-                            >
-
-                                <label for="name" class="a-hidden">SEU NOME COMPLETO</label>
-                            
-                                <input
-                                    class="a-input"
-                                    id="name"
-                                    name="name"
-                                    type="text"
-                                    pattern="^\D{2,}\s[\D\s]{2,}$"
-                                    title="Digite seu nome completo"
-                                    placeholder="Seu nome completo"
-                                    required
-                                />
-
-                                <label for="email" class="a-hidden">SEU E-MAIL</label>
-                                
-                                <input
-                                    class="a-input"
-                                    id="email"
-                                    name="email"
-                                    type="email"
-                                    title="Digite um e-mail válido"
-                                    placeholder="Seu e-mail"
-                                    required
-                                />
-                                
-                                <input name="redirectTo" type="hidden" value="https://meyu.live/thank-you.html" />
-                                
-                                <input 
-                                    class="a-button a-button--cta a-button--secondary a-button-form" 
-                                    type="submit" 
-                                    value="Acesse o Quiz"
-                                />
-
-                            </form>
-                        </div>
-                    </section>
-
-                </section>
-
+                <a
+                        href="#quizform"
+                        class="a-button a-button--cta a-button--secondary a-button--width--fit"
+                    >
+                        ACESSE O QUIZ
+                </a>
             </div>
         </section>
 
