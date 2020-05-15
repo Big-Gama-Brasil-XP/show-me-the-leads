@@ -33,3 +33,7 @@
 .a-text--marked-on-bg {
     color: var(--color-primary);
 }
+
+.a-text--on-primary {
+    color: var(--color-on-primary);
+}

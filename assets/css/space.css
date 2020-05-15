@@ -21,8 +21,8 @@
     * Default responsive section padding
     * - It will change with the screen width
     */
-    --padding-section: calc(var(--space-grid) * 3);
-    /* 24px */
+    --padding-section: calc(var(--space-grid) * 4);
+    /* 32px */
 
     /**
     * Default boxed width
