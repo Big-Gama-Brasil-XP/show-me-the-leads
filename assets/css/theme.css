@@ -126,6 +126,14 @@
     gap: calc(var(--space-grid) * 8);
 }
 
+/* o-what-home component */
+.o-what-home {
+    background: linear-gradient(0deg, #000000, #000000e6),
+                url('../image-bg-what-home.jpg') no-repeat center;
+                background-size: cover;
+    opacity: 0.9;
+}
+
 /* o-sozinho-home component */
 .o-sozinho-home {
     /* align-content: left; */
